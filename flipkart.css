@@ -1,0 +1,485 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+   align-items: center; 
+   /* width: 100%; */
+}
+ #navbar #nav1{ 
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+#nav2{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+  gap: 13rem;
+    
+}
+#btn1{
+   padding: 4px 8px ;
+   color: black;
+   background-color: yellow;
+   border-radius: 10px;
+   margin-right: 2rem;
+   border: none;
+}
+#btn1 img{
+     height: 30px;
+}
+#by{
+    display: flex;
+    gap: 3rem;
+     margin-top: 2rem;
+}
+#btn2{
+     padding: 10px 18px ;
+   color: black;
+   border-radius: 10px;
+   font-weight: 600;
+   margin-right: 40rem;
+   border: none; 
+}
+#btn2 i{
+    color: orangered;
+}
+#a{
+    font-weight: 600;
+}
+#a a{
+    color: blue;
+    text-decoration: none;
+    margin-left: 6px;
+}
+#b{
+    width: 700px;
+    height: 40px;
+    border: 2px solid rgb(19, 172, 233);
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+#place{
+    padding: 0;
+    margin: 0;
+}
+#login{
+    padding: 12px 22px;
+    border: none;
+    font-size: 15px;
+}
+#more{
+    padding: 12px 22px;
+    border: none;
+    font-size: 15px;
+}
+#icon{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    /* margin-left: 8rem;
+    margin-right: 8rem;  */
+}
+#icon1{
+    text-align: center;
+}
+#side{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin: 0;
+    padding: 0;
+}
+#can{
+    margin-right: -20px;
+}
+.ban{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+#can img{
+    border-radius: 10px;
+    margin-top: 1rem;
+    display: block;
+    height: 230px;
+    width: 370px;
+}
+.ban img{
+     border-radius: 10px;
+    margin-top: 1rem;
+    display: block;
+    height: 230px;
+    width: 370px;
+}
+#screen img{
+    width:1200px ;
+    height: 250px;
+}
+#screen{
+    text-align: center;
+}
+#screen2 img{
+    height:150px;
+     width:200px;
+     border-radius: 20px;
+     margin-bottom: 5px;
+}
+#spot{
+    text-align: center;
+}
+#bb{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+#card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    
+}
+#card1 img{
+    border-radius: 30px;
+    height: 350px;
+    width: 250px;
+    margin-top: 1rem;
+}
+#footer{
+    height: 300px;
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: black;
+  padding-left: 1rem;
+   padding-right: 1rem;
+}
+#foot1{
+    display: flex;
+    flex-direction: column;
+}
+.p1{
+    margin-top: 1rem;
+    color: gray;
+}
+ #foot1 a {
+    color: white;
+    text-decoration: none;
+}
+.pp{
+    color: white;
+}
+#foot1 i{
+    color: white;
+}
+
+@media (max-width:768px) {
+    #footer{
+    height: 1000px;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: black;
+  padding-left: 1rem;
+   padding-right: 1rem;
+}
+#foot1{
+    display: flex;
+    flex-direction: column;
+}
+#foot1 a{
+    font-size: 10px;
+}
+.pp{
+    font-size: 10px;
+}
+.p1{
+    font-size: 10px;
+    margin-top: 1rem;
+    color: gray;
+}
+    #card{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    }
+    #bb{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    #btn2{
+        margin-right: 2rem;
+    }
+    #nav2{
+        gap: 2rem;
+    }
+    #a{
+        display: none;
+    }
+    #b{
+     width: 300px;
+    height: 40px;
+    }
+    #by{
+        display: none;
+    }
+    .icon2{
+        display: none;
+    }
+    #icon{
+    display: flex;
+    gap: 1rem;
+   margin-left: 5px;
+    margin-top: 1rem; 
+    
+}
+#side{
+    margin-right: 17px;
+
+}
+
+.ban{
+    display: none;
+}
+#can img{
+    width: 300px;
+}
+hr{
+    display: none;
+}
+#screen img{
+    width:300px ;
+    height: 150px;
+}
+.man{
+    display: none;
+}
+
+}
+/* #screen1{
+    text-align: center;
+    margin-left:8rem;
+    margin-right:8rem ;
+}
+#screen2 img{
+    border-radius: 20px;
+
+}
+#bb{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+   justify-content: center;
+}
+#card{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top:1rem ;
+    justify-content: center;
+}
+#card1{
+width: 270px;
+background-color: white;
+padding-top: 1rem;
+}
+#card1 img{
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 20px; 
+}
+#card a{
+    text-decoration: none;
+    color: rgb(27, 27, 212);
+}
+#card1 p p a{
+    margin-left: 60px;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     height: 350px;
+    background-color:black;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   width: 100%;
+}
+#foot1{
+    display: flex;
+    flex-direction: column;
+
+}
+#foot1 a{
+    text-decoration: none;
+    color: white;
+}
+#foot1 .p1{
+    color: gray;
+    padding-top: 3rem;
+    
+}
+ #foot1 .pp{
+    color: white;
+}
+#foot1 .pp a{
+    color: rgb(32, 32, 179);
+    font-weight: 500;
+}
+#spot{
+    margin-left: 12rem;
+}
+@media (max-width:768px) {
+    #btn1{
+        margin: 0%;
+        padding: 10px 48px;  
+    }
+    
+    #btn2{
+        margin-right: 0;
+         padding: 12px 48px;
+    }
+    #b{
+        border-radius: 10px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    }
+    #login{
+        display: none;
+    }
+    #more{
+       display: none;
+    }
+    #a{
+        display: none;
+    }
+    .fa-cart-shopping{
+        display: none;
+    }
+    #c{
+        display: none;
+    }
+    #b{
+        padding-left: 1rem;
+        margin-left: 1rem;
+        width: 300px;
+    }
+    #icon{
+         margin-left: 1rem ;
+    margin-right: 1rem;
+    margin-top: 1rem; 
+    }
+    #icon p{
+        font-size: 12px;
+    }    
+    hr{
+       display: none;
+    }
+    .icon2{
+        display: none;
+    }
+     .ban{
+        display: none;
+     }
+     #can img{
+        height: 200px;
+        width: 330px ;
+     }
+     #screen img{
+        width: 380px;
+        height: 100px; 
+     }
+     #screen{
+    text-align: center;
+    margin-left:2rem;
+    margin-right:2rem ;
+    }
+     #screen2 img{
+        height :100px;
+         width: 100px;
+
+     }
+     .man{
+        display: none;
+     }
+     #spot{
+       margin-left: none;
+       
+     }
+     #card{
+        display: flex;
+        flex-direction: column;
+         margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top:1rem ;  
+     }
+     #card1{
+      width: 270px;
+      background-color:white;
+      padding-top: 1rem;
+      margin-left: 20px ;
+      margin-right: 5px ;
+}
+#card1 img{
+    border-radius: 20px;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     height: 350px;
+    background-color:black;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   width: 100%;
+   gap: 1px;
+}
+#foot1{
+    display: flex;
+    flex-direction: column;
+
+}
+#foot1 .p1{
+    color: gray;
+    padding-top: 3rem;
+    font-size: 7px;
+    font-weight: 600;
+    
+}
+ #foot1 .pp{
+    color: white;
+    font-size: 7px;
+}
+ #foot1 .pp a{
+    color: rgb(32, 32, 179);
+    font-weight: 200;
+}
+.pan{
+    font-size: 7px;
+}
+
+} */
